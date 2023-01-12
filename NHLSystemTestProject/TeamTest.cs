@@ -6,12 +6,12 @@ namespace NHLSystemTestProject
     public class TeamTest
     {
         [TestMethod]
-        [DataRow("Oilers")]
-        [DataRow("Flames")]
-        [DataRow("Canucks")]
-        [DataRow("Maple leafs")]
-        [DataRow("Senators")]
-        [DataRow("Canadiens")]
+        [DataRow("Oilers", Conference.Western, Division.Pacific)]
+        [DataRow("Flames", Conference.Western, Division.Pacific)]
+        [DataRow("Canucks", Conference.Western, Division.Pacific)]
+        [DataRow("Maple leafs", Conference.Eastern, Division.Atlantic)]
+        [DataRow("Senators", Conference.Eastern, Division.Atlantic)]
+        [DataRow("Canadiens", Conference.Eastern, Division.Atlantic)]
         public void Name_ValidName_NameSet(string teamName)
         {
             //arrange
