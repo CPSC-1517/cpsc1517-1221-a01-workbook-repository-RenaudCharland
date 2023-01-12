@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NHLsolution\NHLsolution.csproj" />
+    <ProjectReference Include="..\NHLsolution\NHLSystemClassLibrary.csproj" />
   </ItemGroup>
 
 </Project>

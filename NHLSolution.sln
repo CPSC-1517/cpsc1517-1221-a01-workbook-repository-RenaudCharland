@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NHLsolution", "NHLsolution\NHLsolution.csproj", "{6D566D5B-8288-4361-83C8-DD438EA666D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NHLSystemClassLibrary", "NHLsolution\NHLSystemClassLibrary.csproj", "{6D566D5B-8288-4361-83C8-DD438EA666D5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHLConsoleApp", "NHLConsoleApp\NHLConsoleApp.csproj", "{C6BF7E43-6999-4D0F-8E91-2F1306A33AE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHLSystemTestProject", "NHLSystemTestProject\NHLSystemTestProject.csproj", "{98238D3C-7EC4-431B-8DB6-5989D0FAA3E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C6BF7E43-6999-4D0F-8E91-2F1306A33AE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6BF7E43-6999-4D0F-8E91-2F1306A33AE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6BF7E43-6999-4D0F-8E91-2F1306A33AE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98238D3C-7EC4-431B-8DB6-5989D0FAA3E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98238D3C-7EC4-431B-8DB6-5989D0FAA3E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98238D3C-7EC4-431B-8DB6-5989D0FAA3E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98238D3C-7EC4-431B-8DB6-5989D0FAA3E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

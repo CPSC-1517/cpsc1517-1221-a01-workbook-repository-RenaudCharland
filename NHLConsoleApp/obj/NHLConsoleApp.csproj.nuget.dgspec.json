@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\rcharland2\\source\\repos\\cpsc1517-1221-a01-workbook-repository-RenaudCharland\\NHLsolution\\NHLsolution.csproj": {
-                "projectPath": "C:\\Users\\rcharland2\\source\\repos\\cpsc1517-1221-a01-workbook-repository-RenaudCharland\\NHLsolution\\NHLsolution.csproj"
+              "C:\\Users\\rcharland2\\source\\repos\\cpsc1517-1221-a01-workbook-repository-RenaudCharland\\NHLsolution\\NHLSystemClassLibrary.csproj": {
+                "projectPath": "C:\\Users\\rcharland2\\source\\repos\\cpsc1517-1221-a01-workbook-repository-RenaudCharland\\NHLsolution\\NHLSystemClassLibrary.csproj"
               }
             }
           }
@@ -67,12 +67,12 @@
         }
       }
     },
-    "C:\\Users\\rcharland2\\source\\repos\\cpsc1517-1221-a01-workbook-repository-RenaudCharland\\NHLsolution\\NHLsolution.csproj": {
+    "C:\\Users\\rcharland2\\source\\repos\\cpsc1517-1221-a01-workbook-repository-RenaudCharland\\NHLsolution\\NHLSystemClassLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rcharland2\\source\\repos\\cpsc1517-1221-a01-workbook-repository-RenaudCharland\\NHLsolution\\NHLsolution.csproj",
-        "projectName": "NHLsolution",
-        "projectPath": "C:\\Users\\rcharland2\\source\\repos\\cpsc1517-1221-a01-workbook-repository-RenaudCharland\\NHLsolution\\NHLsolution.csproj",
+        "projectUniqueName": "C:\\Users\\rcharland2\\source\\repos\\cpsc1517-1221-a01-workbook-repository-RenaudCharland\\NHLsolution\\NHLSystemClassLibrary.csproj",
+        "projectName": "NHLSystemClassLibrary",
+        "projectPath": "C:\\Users\\rcharland2\\source\\repos\\cpsc1517-1221-a01-workbook-repository-RenaudCharland\\NHLsolution\\NHLSystemClassLibrary.csproj",
         "packagesPath": "C:\\Users\\rcharland2\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\rcharland2\\source\\repos\\cpsc1517-1221-a01-workbook-repository-RenaudCharland\\NHLsolution\\obj\\",
         "projectStyle": "PackageReference",

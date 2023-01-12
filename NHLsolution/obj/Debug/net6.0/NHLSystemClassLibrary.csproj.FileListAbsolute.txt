@@ -1,0 +1,12 @@
+C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\NHLsolution\bin\Debug\net6.0\NHLSystemClassLibrary.deps.json
+C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\NHLsolution\bin\Debug\net6.0\NHLSystemClassLibrary.dll
+C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\NHLsolution\bin\Debug\net6.0\NHLSystemClassLibrary.pdb
+C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\NHLsolution\obj\Debug\net6.0\NHLSystemClassLibrary.csproj.AssemblyReference.cache
+C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\NHLsolution\obj\Debug\net6.0\NHLSystemClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\NHLsolution\obj\Debug\net6.0\NHLSystemClassLibrary.AssemblyInfoInputs.cache
+C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\NHLsolution\obj\Debug\net6.0\NHLSystemClassLibrary.AssemblyInfo.cs
+C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\NHLsolution\obj\Debug\net6.0\NHLSystemClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\NHLsolution\obj\Debug\net6.0\NHLSystemClassLibrary.dll
+C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\NHLsolution\obj\Debug\net6.0\refint\NHLSystemClassLibrary.dll
+C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\NHLsolution\obj\Debug\net6.0\NHLSystemClassLibrary.pdb
+C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\NHLsolution\obj\Debug\net6.0\ref\NHLSystemClassLibrary.dll

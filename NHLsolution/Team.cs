@@ -1,4 +1,4 @@
-﻿namespace NHLsolution
+﻿namespace NHLSystemClassLibrary
 {
     public class Team
     {
@@ -30,11 +30,7 @@
                 //not blank and only a-z
                 if (string.IsNullOrWhiteSpace(value))
                 {
-                    throw new ArgumentNullException("Invalid input for Name");
-                }
-                else if (!value.All(char.IsLetter))
-                {
-                    throw new ArgumentNullException("Invalid input for Name");
+                    throw new ArgumentNullException(nameof(Name), "Invalid input for Name");
                 }
                 else
                 {
