@@ -1,4 +1,4 @@
-﻿using NHLsolution;
+﻿using NHLSystemClassLibrary;
 
 namespace NHLConsoleApp
 {
@@ -8,9 +8,11 @@ namespace NHLConsoleApp
         {
             try
             {
-                Console.Write("Enter a team name: ");
-                string teamName = Console.ReadLine();
-                Team team = new Team(teamName);
+                //Console.Write("Enter a team name: ");
+                //string teamName = Console.ReadLine();
+                Team oilers = new Team("Maple leafs", "Edmonton", "Rogers Place", Conference.Western, Division.Pacific);
+                Console.WriteLine(oilers);
+                //Console.WriteLine($"Name: {oilers.Name}, City: {oilers.City}, Arena: {oilers.Arena}");
             }
             catch(ArgumentNullException ex)
             {

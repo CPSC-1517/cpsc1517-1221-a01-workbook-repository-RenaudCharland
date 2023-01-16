@@ -3,8 +3,6 @@ C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCha
 C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\NHLConsoleApp\bin\Debug\net6.0\NHLConsoleApp.runtimeconfig.json
 C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\NHLConsoleApp\bin\Debug\net6.0\NHLConsoleApp.dll
 C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\NHLConsoleApp\bin\Debug\net6.0\NHLConsoleApp.pdb
-C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\NHLConsoleApp\bin\Debug\net6.0\NHLsolution.dll
-C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\NHLConsoleApp\bin\Debug\net6.0\NHLsolution.pdb
 C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\NHLConsoleApp\obj\Debug\net6.0\NHLConsoleApp.csproj.AssemblyReference.cache
 C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\NHLConsoleApp\obj\Debug\net6.0\NHLConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\NHLConsoleApp\obj\Debug\net6.0\NHLConsoleApp.AssemblyInfoInputs.cache
@@ -16,3 +14,5 @@ C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCha
 C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\NHLConsoleApp\obj\Debug\net6.0\NHLConsoleApp.pdb
 C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\NHLConsoleApp\obj\Debug\net6.0\NHLConsoleApp.genruntimeconfig.cache
 C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\NHLConsoleApp\obj\Debug\net6.0\ref\NHLConsoleApp.dll
+C:\Users\rcharland2\Source\Repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\NHLConsoleApp\bin\Debug\net6.0\NHLSystemClassLibrary.dll
+C:\Users\rcharland2\Source\Repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\NHLConsoleApp\bin\Debug\net6.0\NHLSystemClassLibrary.pdb

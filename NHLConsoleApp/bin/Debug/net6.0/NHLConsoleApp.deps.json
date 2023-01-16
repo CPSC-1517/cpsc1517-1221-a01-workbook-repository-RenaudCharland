@@ -8,15 +8,15 @@
     ".NETCoreApp,Version=v6.0": {
       "NHLConsoleApp/1.0.0": {
         "dependencies": {
-          "NHLsolution": "1.0.0"
+          "NHLSystemClassLibrary": "1.0.0"
         },
         "runtime": {
           "NHLConsoleApp.dll": {}
         }
       },
-      "NHLsolution/1.0.0": {
+      "NHLSystemClassLibrary/1.0.0": {
         "runtime": {
-          "NHLsolution.dll": {}
+          "NHLSystemClassLibrary.dll": {}
         }
       }
     }
@@ -27,7 +27,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "NHLsolution/1.0.0": {
+    "NHLSystemClassLibrary/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

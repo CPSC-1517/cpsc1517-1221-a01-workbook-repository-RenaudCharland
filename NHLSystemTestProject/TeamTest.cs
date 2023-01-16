@@ -6,36 +6,50 @@ namespace NHLSystemTestProject
     public class TeamTest
     {
         [TestMethod]
-        [DataRow("Oilers", Conference.Western, Division.Pacific)]
-        [DataRow("Flames", Conference.Western, Division.Pacific)]
-        [DataRow("Canucks", Conference.Western, Division.Pacific)]
-        [DataRow("Maple leafs", Conference.Eastern, Division.Atlantic)]
-        [DataRow("Senators", Conference.Eastern, Division.Atlantic)]
-        [DataRow("Canadiens", Conference.Eastern, Division.Atlantic)]
-        public void Name_ValidName_NameSet(string teamName)
+        [DataRow("Oilers", "Edmonton", "Rogers Place", Conference.Western, Division.Pacific)]
+        [DataRow("Flames", "Calgary", "Scotiabank Saddledome", Conference.Western, Division.Pacific)]
+        [DataRow("Canucks", "Vancouver", "Rogers Place", Conference.Western, Division.Pacific)]
+        [DataRow("MapleLeafs", "Toronto", "Scotiabank Saddledome", Conference.Eastern, Division.Atlantic)]
+        [DataRow("Senators", "Ottawa", "Canadian Tire Center", Conference.Eastern, Division.Atlantic)]
+        [DataRow("Canadiens", "Montreal", "Centerbell", Conference.Eastern, Division.Atlantic)]
+        [DataRow("Jets", "Winnipeg", "Canadian Life Centre", Conference.Western, Division.Central)]
+        public void Name_ValidName_NameSet(
+            string teamName,
+            string city,
+            string arena,
+            Conference conference,
+            Division division)
         {
-            //arrange
-            //act
-            Team currentTeam = new Team(teamName);
-            //assert
+            // Arrange
+            // Act
+            Team currentTeam = new Team(teamName, city, arena, conference, division);
+            // Assert
             Assert.AreEqual(teamName, currentTeam.Name);
+            Assert.AreEqual(conference, currentTeam.Conference);
+            Assert.AreEqual(division, currentTeam.Division);
+            Assert.AreEqual(city, currentTeam.City);
+            Assert.AreEqual(arena, currentTeam.Arena);
         }
 
-        [TestMethod]
-        //[DataRow(null,"Invalid input for name")]
-        [DataRow("","Invalid input for name")]
-        [DataRow("     ", "Invalid input for name")]
-        public void Name_InvalidName_ThrowsArugmentNullException(string teamName, string exceptedErrorMessage)
-        {
-            try
-            {
-                Team currentTeam = new Team(teamName);
-                Assert.Fail("An ArugmentNullException should have been thrown");
-            }
-            catch(ArgumentNullException ex)
-            {
-                StringAssert.Contains(ex.Message, exceptedErrorMessage);
-            }
+        //[TestMethod]
+        //[DataRow("", "Name cannot be blank.", Conference.Western, Division.Pacific)]
+        //[DataRow("     ", "Name cannot be blank.", Conference.Western, Division.Pacific)]
+        //public void Name_InvalidName_THrowsArgumentNullException(
+        //    string teamName,
+        //    string exceptedErrorMessage,
+        //    Conference conference,
+        //    Division divison
+        //    )
+        //{
+        //    // Arrange and Act
+        //    try
+        //    {
+        //        Team currentTeam = new Team(teamName, conference, divison);
+        //        Assert.Fail("An ArgumentNullException should have been thrown");
+        //    }
+        //    catch (ArgumentNullException ex)
+        //    {
+        //        StringAssert.Contains(ex.Message, exceptedErrorMessage);
+        //    }
         }
     }
-}
