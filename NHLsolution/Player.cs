@@ -42,13 +42,9 @@ namespace NHLSystemClassLibrary
             get { return _name; }
             private set
             {
-                if (string.IsNullOrEmpty(value))
+                if (string.IsNullOrWhiteSpace(value))
                 {
                     throw new ArgumentNullException(nameof(Name), "Name cannot be blank");
-                }
-                if (!value.Trim().All(char.IsLetter))
-                {
-                    throw new ArgumentException(nameof(Name), "Name can only contain letters a-z");
                 }
                 _name = value.Trim();
             }

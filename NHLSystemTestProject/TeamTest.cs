@@ -1,5 +1,3 @@
-using NHLSystemClassLibrary;
-
 namespace NHLSystemTestProject
 {
     [TestClass]
