@@ -108,6 +108,25 @@ namespace NHLSystemClassLibrary
             Assists = assists;
         }
 
+        public override string ToString()
+        {
+            //return a csv list of the properties used by th econstructor
+            return $"{Number},{Name},{Position},{GamesPlayed},{Goals},{Assists}";
+        }
+
+        public static Player Parse(string csvLine)
+        {
+            const char Delimiter = ',';
+            const int ArrayLength = 6;
+            string[] tokens = csvLine.Split(Delimiter);
+            //verify that the length of the array is 6
+            if(tokens.Length != ArrayLength)
+            {
+                throw new FormatException($"CSV line must contain exactly {ArrayLength} values.");
+            }
+            return null;// new Player();
+        }
+
         public void AddGamesPlayed()
         {
             GamesPlayed++;
