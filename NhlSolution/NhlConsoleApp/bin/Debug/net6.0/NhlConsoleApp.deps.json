@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "NhlConsoleApp/1.0.0": {
+        "dependencies": {
+          "NhlSystemClassLibrary": "1.0.0"
+        },
+        "runtime": {
+          "NhlConsoleApp.dll": {}
+        }
+      },
+      "NhlSystemClassLibrary/1.0.0": {
+        "runtime": {
+          "NhlSystemClassLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NhlConsoleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NhlSystemClassLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

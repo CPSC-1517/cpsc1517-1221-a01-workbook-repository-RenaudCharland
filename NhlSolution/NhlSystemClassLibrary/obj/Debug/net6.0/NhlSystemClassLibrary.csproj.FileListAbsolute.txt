@@ -1,0 +1,12 @@
+C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\NhlSolution\NhlSystemClassLibrary\bin\Debug\net6.0\NhlSystemClassLibrary.deps.json
+C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\NhlSolution\NhlSystemClassLibrary\bin\Debug\net6.0\NhlSystemClassLibrary.dll
+C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\NhlSolution\NhlSystemClassLibrary\bin\Debug\net6.0\NhlSystemClassLibrary.pdb
+C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\NhlSolution\NhlSystemClassLibrary\obj\Debug\net6.0\NhlSystemClassLibrary.csproj.AssemblyReference.cache
+C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\NhlSolution\NhlSystemClassLibrary\obj\Debug\net6.0\NhlSystemClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\NhlSolution\NhlSystemClassLibrary\obj\Debug\net6.0\NhlSystemClassLibrary.AssemblyInfoInputs.cache
+C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\NhlSolution\NhlSystemClassLibrary\obj\Debug\net6.0\NhlSystemClassLibrary.AssemblyInfo.cs
+C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\NhlSolution\NhlSystemClassLibrary\obj\Debug\net6.0\NhlSystemClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\NhlSolution\NhlSystemClassLibrary\obj\Debug\net6.0\NhlSystemClassLibrary.dll
+C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\NhlSolution\NhlSystemClassLibrary\obj\Debug\net6.0\refint\NhlSystemClassLibrary.dll
+C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\NhlSolution\NhlSystemClassLibrary\obj\Debug\net6.0\NhlSystemClassLibrary.pdb
+C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\NhlSolution\NhlSystemClassLibrary\obj\Debug\net6.0\ref\NhlSystemClassLibrary.dll

@@ -1,0 +1,54 @@
+{
+  "Name": "Oilers",
+  "City": "Edmonton",
+  "Arena": "Rogers Place",
+  "Conference": 1,
+  "Division": 3,
+  "Players": [
+    {
+      "PlayerNo": 97,
+      "Name": "Connor McDavid",
+      "Position": 0,
+      "GamesPlayed": 50,
+      "Goals": 41,
+      "Assists": 0,
+      "Points": 41
+    },
+    {
+      "PlayerNo": 18,
+      "Name": "Zach Hyman",
+      "Position": 1,
+      "GamesPlayed": 49,
+      "Goals": 26,
+      "Assists": 0,
+      "Points": 26
+    },
+    {
+      "PlayerNo": 22,
+      "Name": "Tyson Barrie",
+      "Position": 3,
+      "GamesPlayed": 50,
+      "Goals": 7,
+      "Assists": 0,
+      "Points": 7
+    },
+    {
+      "PlayerNo": 56,
+      "Name": "Kailer Yamamoto",
+      "Position": 2,
+      "GamesPlayed": 31,
+      "Goals": 4,
+      "Assists": 0,
+      "Points": 4
+    },
+    {
+      "PlayerNo": 36,
+      "Name": "Jack Campbell",
+      "Position": 4,
+      "GamesPlayed": 25,
+      "Goals": 0,
+      "Assists": 0,
+      "Points": 0
+    }
+  ]
+}

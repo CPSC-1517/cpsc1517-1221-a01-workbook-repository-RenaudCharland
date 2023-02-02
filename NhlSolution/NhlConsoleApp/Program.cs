@@ -1,9 +1,52 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using NhlSystemClassLibrary;
+using System.Text.Json;
 
-Team currentTeam = ReadPlayerDataFromCsv();
+//Team currentTeam = ReadPlayerDataFromCsv();
+//PrintTeamInfo(currentTeam);
+//WriteTeamInfoToJsonFile(currentTeam, @"..\..\..\team.json");
+Team currentTeam = ReadTeamFromJsonFile(@"..\..\..\team.json");
 PrintTeamInfo(currentTeam);
+
+static Team ReadTeamFromJsonFile(string jsonFilePath)
+{
+    Team currentTeam = null;
+    try
+    {
+        string jsonString = File.ReadAllText(jsonFilePath);
+        JsonSerializerOptions options = new JsonSerializerOptions
+        {
+            WriteIndented = true,
+            IncludeFields = true,
+        };
+        currentTeam = JsonSerializer.Deserialize<Team>(jsonString, options);
+    }
+    catch(Exception ex)
+    {
+        Console.WriteLine($"Error deserilize json file with exception {ex.Message}");
+    }
+    return currentTeam;
+}
+
+static void WriteTeamInfoToJsonFile(Team currentTeam, string jsonFilePath)
+{
+    try
+    {
+        JsonSerializerOptions options = new JsonSerializerOptions
+        {
+            WriteIndented = true,
+            IncludeFields = true,
+        };
+        string jsonString = JsonSerializer.Serialize<Team>(currentTeam, options);
+        File.WriteAllText(jsonFilePath, jsonString);
+        Console.WriteLine("Write to Json file was successful");
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"Error serializing to Json file with exception: {ex.Message}");
+    }
+}
 
 static void PrintTeamInfo(Team currentTeam)
 {

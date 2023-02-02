@@ -56,6 +56,7 @@ namespace NhlSystemClassLibrary
                 {
                     throw new ArgumentException("GamesPlayed must be a positive or zero number.");
                 }
+                _gamesPlayed = value;
             }
         }
         // 5) Goals: int {Goals >= 0}
@@ -68,6 +69,7 @@ namespace NhlSystemClassLibrary
                 {
                     throw new ArgumentException("Goals must be a positive or zero number.");
                 }
+                _goals = value;
             }
         }
         // 6) Assists: int {Assists >= 0}
