@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rLDAmFBxAjeEAZDq++W2D6SeP8XRDE+Kuk+PR0tzEY3jrxLuH1hAmSNlhHQMXRTHrpKUW//A042UNri+6aZfRQ==",
+  "dgSpecHash": "gAZ6Odd5+C19kUPZLzWzUzR9+1HQwXuTG2k6YmwKOoUXD8xn47WcXvgQ5qoUyl5SEQSjrT/gjVww2vMh5Aky0A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rcharland2\\Source\\Repos\\cpsc1517-1221-a01-workbook-repository-RenaudCharland\\NhlSolution\\NhlSystemTestProject\\NhlSystemTestProject.csproj",
+  "projectFilePath": "C:\\Users\\rcharland2\\source\\repos\\cpsc1517-1221-a01-workbook-repository-RenaudCharland\\NhlSolution\\NhlSystemTestProject\\NhlSystemTestProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rcharland2\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\rcharland2\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",
