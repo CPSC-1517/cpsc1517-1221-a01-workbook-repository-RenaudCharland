@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\rcharland2\source\repos\cpsc1517-1221-a01-workbook-repository-RenaudCharland\RazorPagesDemo\RazorPagesDemo
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/rcharland2/source/repos/cpsc1517-1221-a01-workbook-repository-RenaudCharland/RazorPagesDemo/RazorPagesDemo/Pages/ContactMe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdE1lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/rcharland2/source/repos/cpsc1517-1221-a01-workbook-repository-RenaudCharland/RazorPagesDemo/RazorPagesDemo/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
