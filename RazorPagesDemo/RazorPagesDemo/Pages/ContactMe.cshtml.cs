@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Net;
 using System.Net.Mail;
+using System.Text.RegularExpressions;
 
 namespace RazorPagesDemo.Pages
 {
@@ -11,7 +12,7 @@ namespace RazorPagesDemo.Pages
 
         public ContactMeModel(IConfiguration configuration)
         {
-            Configuration = configuration;  
+            Configuration = configuration;
         }
 
 
@@ -33,6 +34,30 @@ namespace RazorPagesDemo.Pages
 
         public void OnPostSendMessage()
         {
+            //validate all form field values
+            if (string.IsNullOrWhiteSpace(ContactName))
+            {
+                ModelState.AddModelError(nameof(ContactName), "Contact name is required and cannot be blank");
+            }
+            else
+            if (ContactName.Length < 5)
+            {
+                ModelState.AddModelError(nameof(ContactName), "Contact name must contain 5 or more characters");
+            }
+            if (string.IsNullOrWhiteSpace(ContactEmail))
+            {
+                ModelState.AddModelError(nameof(ContactEmail), "Contact email is required and cannot be blank");
+            }
+            else
+            if (!Regex.IsMatch(ContactEmail, @"\A(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?)\Z", RegexOptions.IgnoreCase))
+            {
+                ModelState.AddModelError(nameof(ContactEmail), "Cantact email requires a valid email");
+            }
+            if (string.IsNullOrWhiteSpace(ContactComments))
+            {
+                ModelState.AddModelError(nameof(ContactComments), "Contact comments are required and cannot be blank");
+            }
+
             string subscribeToMail = (SubscribeToMail == true) ? "Yes" : "No";
             InfoMessage = $"Name: {ContactName} <br />"
                 + $"Email: {ContactEmail} <br />"
@@ -64,7 +89,7 @@ namespace RazorPagesDemo.Pages
                 ContactComments = null;
                 InfoMessage = "Your message has been sent";
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 ErrorMessage = $"Error sending mail with exception: {ex.Message}";
             }
