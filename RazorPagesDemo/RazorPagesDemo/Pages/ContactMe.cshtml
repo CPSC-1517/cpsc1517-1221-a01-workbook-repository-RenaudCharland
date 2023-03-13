@@ -3,53 +3,56 @@
 @{
     ViewData["Title"] = "Contact Me";
 }
-<h1>@ViewData["Title"]</h1>
+<h1>Contact Me</h1>
 
-@if (Model.InfoMessage != null)
+@if (Model.InfoMessage is not null) 
 {
     <div class="alert alert-info">
-        @Model.InfoMessage
+        @Html.Raw(Model.InfoMessage)
     </div>
 }
-@if (Model.ErrorMessage != null)
+@if (Model.ErrorMessage is not null) 
 {
-    <div class="alert alert-danger">
-        @Model.ErrorMessage
+    <div class="alert alert-warning">
+        @Html.Raw(Model.ErrorMessage)
     </div>
 }
 
 <form method="post">
     <div class="row mb-3">
-        <label asp-for="ContactName" class="col-sm-2 col-form-label">Name:</label>
+        <label asp-for="ContactName" class="col-sm-2 col-form-label">Your Name</label>
         <div class="col-sm-10">
-            <input type="text" class="form-control" asp-for="ContactName">
+            <input asp-for="ContactName" class="form-control" >
         </div>
     </div>
     <div class="row mb-3">
-        <label asp-for="ContactEmail" class="col-sm-2 col-form-label">Email:</label>
+        <label asp-for="ContactEmail" class="col-sm-2 col-form-label">Your Email</label>
         <div class="col-sm-10">
-            <input type="password" class="form-control" asp-for="ContactEmail">
+            <input asp-for="ContactEmail" type="email" class="form-control" >
         </div>
     </div>
     <div class="row mb-3">
-        <label asp-for="ContactComments" class="col-sm-2 col-form-label">Comments:</label>
+        <label asp-for="ContactComments" class="col-sm-2 col-form-label">Your Comments</label>
         <div class="col-sm-10">
-            <textarea rows="5" cols="30" asp-for="ContactComments"></textarea>
+            <textarea asp-for="ContactComments" 
+                rows="5" cols="50"    
+                class="form-control">
+            </textarea>
         </div>
-    </div>
+    </div>    
     <div class="row mb-3">
         <div class="col-sm-10 offset-sm-2">
             <div class="form-check">
-                <input class="form-check-input" type="checkbox">
-                <label class="form-check-label">
-                    Subscribe To Mail
+                <input asp-for="SubscribeToMail" class="form-check-input" type="checkbox" >
+                <label asp-for="SubscribeToMail" class="form-check-label">
+                    Subscribe to Mail
                 </label>
             </div>
         </div>
     </div>
     <div class="row">
-        <button type="submit" class="btn btn-primary">submit</button>
-        <button type="submit" class="btn btn-primary">reset</button>
-        <button type="submit" class="btn btn-primary">clear</button>
+        <button type="submit" asp-page-handler="SendMessage" class="btn btn-primary">Send Message</button>
+        <button type="submit" asp-page-handler="Clear" class="btn btn-secondary">Clear</button>
+        <button type="reset" class="btn btn-info">Reset</button>
     </div>
 </form>

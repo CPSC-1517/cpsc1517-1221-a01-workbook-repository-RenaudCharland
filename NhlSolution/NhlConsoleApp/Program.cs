@@ -6,6 +6,7 @@ using System.Text.Json;
 //Team currentTeam = ReadPlayerDataFromCsv();
 //PrintTeamInfo(currentTeam);
 //WriteTeamInfoToJsonFile(currentTeam, @"..\..\..\team.json");
+
 Team currentTeam = ReadTeamFromJsonFile(@"..\..\..\team.json");
 PrintTeamInfo(currentTeam);
 
@@ -24,8 +25,9 @@ static Team ReadTeamFromJsonFile(string jsonFilePath)
     }
     catch(Exception ex)
     {
-        Console.WriteLine($"Error deserilize json file with exception {ex.Message}");
+        Console.WriteLine($"Error deserialize json file with exception {ex.Message}");
     }
+
     return currentTeam;
 }
 
@@ -40,11 +42,11 @@ static void WriteTeamInfoToJsonFile(Team currentTeam, string jsonFilePath)
         };
         string jsonString = JsonSerializer.Serialize<Team>(currentTeam, options);
         File.WriteAllText(jsonFilePath, jsonString);
-        Console.WriteLine("Write to Json file was successful");
+        Console.WriteLine("Write to JSON file was successful.");
     }
-    catch (Exception ex)
+    catch(Exception ex)
     {
-        Console.WriteLine($"Error serializing to Json file with exception: {ex.Message}");
+        Console.WriteLine($"Error serializing to JSON file with exception: {ex.Message}");
     }
 }
 

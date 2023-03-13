@@ -8,7 +8,8 @@ namespace RazorPagesDemo.Pages
     {
         [BindProperty]
         public Calculator CurrentCalculator { get; set; }
-        public string? InfoMessage { get; set; }
+
+        public string? InfoMessage { get; private set; }
         public string? ErrorMessage { get; private set; }
 
         public void OnPostAdd()
@@ -31,11 +32,13 @@ namespace RazorPagesDemo.Pages
             try
             {
                 InfoMessage = $"{CurrentCalculator.Num1} / {CurrentCalculator.Num2} = {CurrentCalculator.Divide()}";
-            }catch(Exception ex)
+            }
+            catch(Exception ex)
             {
                 ErrorMessage = $"{ex.Message}";
             }
         }
+
         public void OnGet()
         {
         }

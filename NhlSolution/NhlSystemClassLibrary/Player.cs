@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace NhlSystemClassLibrary
@@ -82,6 +83,7 @@ namespace NhlSystemClassLibrary
                 {
                     throw new ArgumentException("Assists must be a positive or zero number.");
                 }
+                _assists = value;
             }
         }
         // 7) Points : int { Goals + Assists}
@@ -103,6 +105,8 @@ namespace NhlSystemClassLibrary
             Name = name;
             Position = position;
         }
+
+        [JsonConstructor]
         public Player(int playerNo, string name, Position position, int gamesPlayed, int goals, int assists)
         {
             PlayerNo = playerNo;

@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NhlConsoleApp", "NhlConsole
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NhlSystemTestProject", "NhlSystemTestProject\NhlSystemTestProject.csproj", "{BD9AD9A5-A064-4795-8421-78933042C33C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NhlWebApp", "NhlWebApp\NhlWebApp.csproj", "{6F7D8144-887A-48DD-A7D6-CB89EBED5286}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NhlWebApp", "NhlWebApp\NhlWebApp.csproj", "{C33C9584-9FFC-4816-9E27-26F39C1E1120}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{BD9AD9A5-A064-4795-8421-78933042C33C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD9AD9A5-A064-4795-8421-78933042C33C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD9AD9A5-A064-4795-8421-78933042C33C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6F7D8144-887A-48DD-A7D6-CB89EBED5286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6F7D8144-887A-48DD-A7D6-CB89EBED5286}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6F7D8144-887A-48DD-A7D6-CB89EBED5286}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6F7D8144-887A-48DD-A7D6-CB89EBED5286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C33C9584-9FFC-4816-9E27-26F39C1E1120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C33C9584-9FFC-4816-9E27-26F39C1E1120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C33C9584-9FFC-4816-9E27-26F39C1E1120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C33C9584-9FFC-4816-9E27-26F39C1E1120}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

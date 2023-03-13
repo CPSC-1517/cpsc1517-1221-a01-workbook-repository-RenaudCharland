@@ -1,0 +1,56 @@
+﻿@page
+@model RazorPagesDemo.Pages.LottoQuickPicksModel
+@{
+    ViewData["Title"] = "Lotto Quick Picks";
+}
+<h1>Lotto Quick Picks</h1>
+<p>This is your lucky day. 
+Enter your name, select a lotto type, and the
+number of quick picks to generate.
+</p>
+
+@if(Model.InfoMessage is not null) 
+{
+    <div class="alert alert-info">
+        @Html.Raw(Model.InfoMessage)
+    </div>
+}
+@if(Model.ErrorMessage is not null) 
+{
+    <div class="alert alert-danger">
+        @Html.Raw(Model.ErrorMessage)
+    </div>
+}
+@{
+    if (Model.QuickPickNumbers.Count > 0)
+    {
+        int quickPickCount = 1;
+        foreach (int[] currentQuickPick in Model.QuickPickNumbers)
+        {
+    <p>Quick Pick #@quickPickCount</p>
+    <table>
+                    <tbody>
+                        <tr>
+                            @foreach(int currentNumber in currentQuickPick)
+                            {
+                                <td>@currentNumber</td>
+                            }
+                        </tr>
+                    </tbody>
+    </table>
+        }
+    }
+}
+
+<form method="post">
+    <div class="row mb-3">
+        <label asp-for="Username" class="col-sm-2 col-form-label">Username</label>
+        <div class="col-sm-10">
+            <input type="text" asp-for="Username" class="form-control" >
+        </div>
+    </div>
+    <div class="row">
+        <button type="submit" asp-page-handler="GenerateNumbers" class="btn btn-primary">Generate</button>
+        <button type="submit" asp-page-handler="Clear" class="btn btn-secondary">Cancel</button>
+    </div>
+</form>

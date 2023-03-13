@@ -1,9 +1,23 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\data\OilersPlayers.csv" />
+    <Content Remove="wwwroot\data\team.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NhlSystemClassLibrary\NhlSystemClassLibrary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\data\OilersPlayers.csv" />
+    <None Include="wwwroot\data\team.json" />
+  </ItemGroup>
 
 </Project>
